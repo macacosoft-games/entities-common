@@ -1,7 +1,7 @@
 {
   "name": "@macacosoft/entities-common",
   "description": "Basic classes for building business logic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
