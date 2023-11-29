@@ -1,0 +1,12 @@
+# dir
+src/
+.git/
+node_modules/
+.yarn/
+
+# files
+.prettierrc.js
+.prettierignore
+rollup.config.js
+.gitignore
+tsconfig.json
