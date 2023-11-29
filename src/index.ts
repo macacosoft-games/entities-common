@@ -1,2 +1,3 @@
 import { Id } from './@id/id';
-export { Id };
+import { Email } from './@email/email';
+export { Id, Email };
