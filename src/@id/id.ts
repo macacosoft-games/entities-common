@@ -32,7 +32,7 @@ export class Id implements IEquatable<Id | string> {
       this._value = value;
       const errors = validateSync(this);
       if (errors.length > 0) {
-        throw new Error(`Неверное значение для Id`);
+        throw new Error(`Invalid value for Id`);
       }
     } else {
       this._value = ulid();

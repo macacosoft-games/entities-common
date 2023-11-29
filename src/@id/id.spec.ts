@@ -15,7 +15,7 @@ describe('Id', () => {
 
     it('should throw an error for an invalid ulid', () => {
       const invalidUlid = 'invalid_ulid';
-      expect(() => new Id(invalidUlid)).toThrow(/Неверное значение для Id.*/);
+      expect(() => new Id(invalidUlid)).toThrow(/Invalid value for Id.*/);
     });
   });
 
